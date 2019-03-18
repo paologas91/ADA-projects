@@ -1,0 +1,30 @@
+V "GNAT Lib v6"
+P ZX
+
+RN
+RV SPARK_05
+
+U type_stack%b		type_stack.adb		dc333317 NE OO PK IL
+
+U type_stack%s		type_stack.ads		d4f62385 EE NE OO PK IL
+
+D system.ads		20190316164818 2da59038 system%s
+D type_stack.ads	20190316160150 d4f62385 type_stack%s
+D type_stack.adb	20190316160130 08c51092 type_stack%b
+X 2 type_stack.ads
+1K9*Type_stack 11E4 18l5 18e15 3|1b14 24l5 24t15
+3R9*Stack 4r28 5r27 6r22 7r24 13c9 16e14 3|3r28 9r27 14r22 19r24
+4U14*push 4=19 4>35 3|3b14 7l8 7t12
+4r19 s{3R9} 3|3b19 5m7 5r16 6m7 6r12
+4i35 x{integer} 3|3b35 6r22
+5U14*pop 5=18 3|9b14 12l8 12t11
+5r18 s{3R9} 3|9b18 11m7 11r16
+6V13*top{integer} 6>17 3|14b13 17l8 17t11
+6r17 s{3R9} 3|14b17 16r14 16r19
+7V13*empty{boolean} 7>19 3|19b13 22l8 22t13
+7r19 s{3R9} 3|19b19 21r14
+11N4 max 12r27 15r28
+12A9 Table(integer)<integer> 14r10
+14a7*st{12A9} 3|6m9 16r16
+15i7*top{integer} 3|5m9 5r18 6r14 11m9 11r18 16r21 21r16
+

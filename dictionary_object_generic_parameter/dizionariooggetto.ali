@@ -1,0 +1,86 @@
+V "GNAT Lib v6"
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U dizionariooggetto%b	dizionariooggetto.adb	1758f3e0 NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U dizionariooggetto%s	dizionariooggetto.ads	d2dc1d94 BN EE NE OO PK GE IL
+
+D ada.ads		20190316164816 3ffc8e18 ada%s
+D a-except.ads		20190316164822 291912d5 ada.exceptions%s
+D a-inteio.ads		20190316164824 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190316164816 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190316164822 119b8fb3 ada.streams%s
+D a-string.ads		20190316164814 90ac6797 ada.strings%s
+D a-tags.ads		20190316164824 01f5e3ef ada.tags%s
+D a-textio.ads		20190316164816 386df5d4 ada.text_io%s
+D a-tiinio.ads		20190316164822 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20190316164812 f9eb8f06 ada.unchecked_conversion%s
+D dizionariooggetto.ads	20190316171336 d2dc1d94 dizionariooggetto%s
+D dizionariooggetto.adb	20190316171332 9b0ef593 dizionariooggetto%b
+D interfac.ads		20190316164822 4be8ce1b interfaces%s
+D i-cstrea.ads		20190316164814 e53d8b8e interfaces.c_streams%s
+D system.ads		20190316164818 2da59038 system%s
+D s-crtl.ads		20190316164812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190316164810 54135002 system.exception_table%s
+D s-ficobl.ads		20190316164810 078245e4 system.file_control_block%s
+D s-parame.ads		20190316164812 7e2a0d7f system.parameters%s
+D s-soflin.ads		20190316164814 14e1eb6c system.soft_links%s
+D s-stache.ads		20190316164818 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190316164814 09bd3940 system.standard_library%s
+D s-stoele.ads		20190316164824 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190316164810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190316164818 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20190316164816 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r23 2r6 2r31 3r6 3r23
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 12|2w10 2r35
+X 6 a-string.ads
+16K13*Strings 35e16 12|3w10 3r27
+X 8 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r27
+208U14*Put 12|75s7 76s7 81s10 82s10 83s10 85s7 86s7
+242U14*Put 12|51s10 74s7 78s10 80s10
+X 9 a-tiinio.ads
+66U14*Put 12|79s10[3|18]
+X 11 dizionariooggetto.ads
+2i4 max{integer} 12|12r33 16r29 36r22
+3k9*dizionarioOggetto 2z4 10l5 10e22 12|5b14 90l5 90t22
+5U14*aggiungi 5>23 5>37 12|31b14 43l8 43t16
+5i23 c{integer} 12|31b23 34r25 37r35
+5e37 v{character} 12|31b37 37r37 41r28
+6V13*leggi{character} 6>19 12|45b13 56l8 56t13
+6i19 c{integer} 12|45b19 49r25
+7U14*cancella 7>23 12|58b14 68l8 68t16
+7i23 c{integer} 12|58b23 61r25
+8U14*stampa 12|70b14 88l8 88t14
+X 12 dizionariooggetto.adb
+7R9 Coppia 10e14 12r41
+8i7 c{integer} 24r23 79r25
+9e7 v{character} 41m25 53r28 81r25
+12A9 ElementList(7R9)<integer> 15r11
+14R9 Dictionary 17e14 19r8
+15a7 diz{12A9} 24r16 37m17 41m14 53r17 64m17 64r29 79m18 81m18
+16i7 size{integer} 23r23 36r17 37r25 38m17 38r27 63r30 66m14 66r24 77r23
+19r4 diz{14R9} 23r19 24r12 36r13 37m13 37r21 38m13 38r23 41m10 53r13 63r26
+. 64m13 64r25 66m10 66r20 77r19 79r14 81r14
+21V13 appartiene{integer} 21b13 21>24 29l8 29t18 34s14 49s14 61s14
+21i24 c{integer} 24r25 25r17
+23i11 i{integer} 24r20
+32i7 index{integer} 34m7 35r10 41r18
+46i7 index{integer} 49m7 50r10 53r21
+47e7 v{character} 53m10 55r14
+59i7 index{integer} 61m7 62r10 63r19
+63i14 i{integer} 64r21 64r33
+71e7 CR{character} 75r11 82r14 85r11
+72e7 LF{character} 76r11 83r14 86r11
+77i11 i{integer} 79r22 81r22
+

@@ -1,0 +1,97 @@
+V "GNAT Lib v6"
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U type_dictionary%b	type_dictionary.adb	20df570d NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U type_dictionary%s	type_dictionary.ads	957c8dcb BN EE NE OO PK GE IL
+
+D ada.ads		20190316164816 3ffc8e18 ada%s
+D a-except.ads		20190316164822 291912d5 ada.exceptions%s
+D a-inteio.ads		20190316164824 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190316164816 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190316164822 119b8fb3 ada.streams%s
+D a-string.ads		20190316164814 90ac6797 ada.strings%s
+D a-tags.ads		20190316164824 01f5e3ef ada.tags%s
+D a-textio.ads		20190316164816 386df5d4 ada.text_io%s
+D a-tiinio.ads		20190316164822 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20190316164812 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20190316164822 4be8ce1b interfaces%s
+D i-cstrea.ads		20190316164814 e53d8b8e interfaces.c_streams%s
+D system.ads		20190316164818 2da59038 system%s
+D s-crtl.ads		20190316164812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190316164810 54135002 system.exception_table%s
+D s-ficobl.ads		20190316164810 078245e4 system.file_control_block%s
+D s-parame.ads		20190316164812 7e2a0d7f system.parameters%s
+D s-soflin.ads		20190316164814 14e1eb6c system.soft_links%s
+D s-stache.ads		20190316164818 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190316164814 09bd3940 system.standard_library%s
+D s-stoele.ads		20190316164824 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190316164810 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190316164818 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20190316164816 1b7d22d2 system.wch_con%s
+D type_dictionary.ads	20190316183116 957c8dcb type_dictionary%s
+D type_dictionary.adb	20190315105340 eb29c121 type_dictionary%b
+X 1 ada.ads
+16K9*Ada 19e8 26|1r6 1r23 2r6 2r31 3r6 3r23
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 26|2w10 2r35
+X 6 a-string.ads
+16K13*Strings 35e16 26|3w10 3r27
+X 8 a-textio.ads
+49K13*Text_IO 471e16 26|1w10 1r27
+208U14*Put 26|81s7 82s7 87s10 88s10 89s10 91s7 92s7
+242U14*Put 26|37s10 80s7 84s10 86s10
+X 9 a-tiinio.ads
+66U14*Put 26|85s10[3|18]
+X 25 type_dictionary.ads
+2k9*type_dictionary 13E4 27l5 27e20 26|5b14 96l5 96t20
+4R9*Dictionary 5r32 6r24 7r32 8r26 8r44 9r26 22c9 25e14 26|7r29 17r32 31r24
+. 44r32 56r26 56r44 76r26
+5U14*aggiungi 5=23 5>44 5>58 26|17b14 29l8 29t16
+5r23 D{4R9} 26|17b23 20r25 22r13 23m13 23r19 24m13 24r21 27m10
+5i44 c{integer} 26|17b44 20r27 23r31
+5e58 v{character} 26|17b58 23r33 27r26
+6V13*leggi{character} 6>19 6>36 26|31b13 42l8 42t13
+6r19 D{4R9} 26|31b19 35r25 39r13
+6i36 c{integer} 26|31b36 35r27
+7U14*cancella 7=23 7>44 26|44b14 54l8 54t16
+7r23 D{4R9} 26|44b23 47r25 49r26 50m13 50r23 52m10 52r18
+7i44 c{integer} 26|44b44 47r27
+8V13*uguale{boolean} 8>20 8>38 26|56b13 74l8 74t14
+8r20 D1{4R9} 26|56b20 59r10 62r22 63r36 67r38
+8r38 D2{4R9} 26|56b38 59r19 63r32 67r19
+9U14*stampa 9>21 26|76b14 94l8 94t14
+9r21 D{4R9} 26|76b21 83r19 85r14 87r14
+13N4 max 20r33 24r29 26|22r20
+15R9 Coppia 18e14 20r41
+16i7 c{integer} 26|10r21 63r46 85r23
+17e7 v{character} 26|27m23 39r26 67r33 67r48 87r23
+20A9 ElementList(15R9)<integer> 23r11
+23a7 diz{20A9} 26|10r14 23m15 27m12 39r15 50m15 50r25 63r39 67r22 67r41 85m16
+. 87m16
+24i7 size{integer} 26|9r21 22r15 23r21 24m15 24r23 49r28 52m12 52r20 59r13
+. 59r22 62r25 83r21
+X 26 type_dictionary.adb
+7V13 appartiene{integer} 7b13 7>24 7>41 15l8 15t18 20s14 35s14 47s14 63s21
+7r24 D{25|4R9} 9r19 10r12
+7i41 c{integer} 10r23 11r17
+9i11 i{integer} 10r18
+18i7 index{integer} 20m7 21r10 27r16
+32i7 index{integer} 35m7 36r10 39r19
+33e7 v{character} 39m10 41r14
+45i7 index{integer} 47m7 48r10 49r19
+49i14 i{integer} 50r19 50r29
+57i7 index{integer} 63m13 64r16 67r26
+62i14 i{integer} 63r43 67r45
+77e7 CR{character} 81r11 88r14 91r11
+78e7 LF{character} 82r11 89r14 92r11
+83i11 i{integer} 85r20 87r20
+
