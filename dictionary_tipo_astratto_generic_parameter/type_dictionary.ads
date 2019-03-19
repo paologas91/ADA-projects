@@ -3,13 +3,13 @@ generic
 	type key is private;
 	type value is private;
 package type_dictionary is
-
+	
     type Dictionary is limited private;
     procedure aggiungi(D:in out Dictionary; c:in key; v:in value);
+	function isEmpty(D:in Dictionary) return Boolean;
     function leggi(D:in Dictionary; c:in key) return value;
     procedure cancella(D:in out Dictionary; c:in key);
     function uguale(D1:in Dictionary; D2:in Dictionary) return Boolean;
-    --procedure stampa(D:in Dictionary);
 
 private
    

@@ -5,23 +5,18 @@ RN
 RV NO_IO
 RV SPARK_05
 
-U type_dictionary%b	type_dictionary.adb	deb213a7 NE OO PK GE IL
+U type_dictionary%b	type_dictionary.adb	cbb1099f NE OO PK GE IL
 W ada%s			ada.ads			ada.ali
-W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
-W ada.strings%s		a-string.ads		a-string.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 
-U type_dictionary%s	type_dictionary.ads	bdaeb122 BN EE NE OO PK GE IL
+U type_dictionary%s	type_dictionary.ads	06b18f3e BN EE NE OO PK GE IL
 
 D ada.ads		20190316164816 3ffc8e18 ada%s
 D a-except.ads		20190316164822 291912d5 ada.exceptions%s
-D a-inteio.ads		20190316164824 f64b89a4 ada.integer_text_io%s
 D a-ioexce.ads		20190316164816 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20190316164822 119b8fb3 ada.streams%s
-D a-string.ads		20190316164814 90ac6797 ada.strings%s
 D a-tags.ads		20190316164824 01f5e3ef ada.tags%s
 D a-textio.ads		20190316164816 386df5d4 ada.text_io%s
-D a-tiinio.ads		20190316164822 aa04e5d6 ada.text_io.integer_io%s
 D a-unccon.ads		20190316164812 f9eb8f06 ada.unchecked_conversion%s
 D interfac.ads		20190316164822 4be8ce1b interfaces%s
 D i-cstrea.ads		20190316164814 e53d8b8e interfaces.c_streams%s
@@ -37,54 +32,52 @@ D s-stoele.ads		20190316164824 2dc34a04 system.storage_elements%s
 D s-traent.ads		20190316164810 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20190316164818 9d58a4c0 system.unsigned_types%s
 D s-wchcon.ads		20190316164816 1b7d22d2 system.wch_con%s
-D type_dictionary.ads	20190318072702 bdaeb122 type_dictionary%s
-D type_dictionary.adb	20190318072616 3d96b962 type_dictionary%b
+D type_dictionary.ads	20190318201404 06b18f3e type_dictionary%s
+D type_dictionary.adb	20190318201528 f56d7375 type_dictionary%b
 X 1 ada.ads
-16K9*Ada 19e8 26|1r6 1r23 2r6 2r31 3r6 3r23
-X 3 a-inteio.ads
-18K13*Integer_Text_IO[9|46] 26|2w10 2r35
-X 6 a-string.ads
-16K13*Strings 35e16 26|3w10 3r27
-X 8 a-textio.ads
-49K13*Text_IO 471e16 26|1w10 1r27
-242U14*Put 26|37s10
-X 25 type_dictionary.ads
-2i9 max{integer} 21r33 25r29 26|22r22
-3+14 key 8r49 9r41 10r49 17r9 26|7r46 17r49 31r41 44r49
-4+14 value 8r59 9r53 18r9 26|17r59 31r53 33r9
-5k9*type_dictionary 2z9 3z14 4z14 16E9 28l5 28e20 26|5b14 96l5 96t20
-7R9*Dictionary 8r32 9r24 10r32 11r26 11r44 23c9 26e14 26|7r29 17r32 31r24
-. 44r32 56r26 56r44
-8U14*aggiungi 8=23 8>44 8>54 26|17b14 29l8 29t16
-8r23 D{7R9} 26|17b23 20r27 22r13 23m13 23r19 24m13 24r23 27m10
-8*44 c{3+14} 26|17b44 20r29 23r35
-8*54 v{4+14} 26|17b54 23r37 27r28
-9V13*leggi{4+14} 9>19 9>36 26|31b13 42l8 42t13
-9r19 D{7R9} 26|31b19 35r27 39r15
-9*36 c{3+14} 26|31b36 35r29
-10U14*cancella 10=23 10>44 26|44b14 54l8 54t16
-10r23 D{7R9} 26|44b23 47r27 49r26 50m13 50r25 52m10 52r20
-10*44 c{3+14} 26|44b44 47r29
-11V13*uguale{boolean} 11>20 11>38 26|56b13 74l8 74t14
-11r20 D1{7R9} 26|56b20 59r10 62r22 63r37 67r38
-11r38 D2{7R9} 26|56b38 59r21 63r33 67r19
-16R9 Coppia 19e14 21r41
-17*7 c{3+14} 26|10r21 63r47
-18*7 v{4+14} 26|27m23 39r28 67r33 67r48
-21A9 ElementList(16R9)<integer> 24r11
-24a7 diz{21A9} 26|10r14 23m15 27m12 39r17 50m15 50r27 63r40 67r22 67r41
-25i7 size{integer} 26|9r21 22r15 23r21 24m15 24r25 49r28 52m12 52r22 59r13
-. 59r24 62r25
-X 26 type_dictionary.adb
-7V13 appartiene{integer} 7b13 7>24 7>41 15l8 15t18 20s16 35s16 47s16 63s22
-7r24 D{25|7R9} 9r19 10r12
-7*41 c{25|3+14} 10r25
-9i11 i{integer} 10r18 11r17
-18i7 index{integer} 20m7 21r10 27r16
-32i7 index{integer} 35m7 36r10 39r21
-33*7 v{25|4+14} 39m10 41r14
-45i7 index{integer} 47m7 48r10 49r19
-49i14 i{integer} 50r19 50r31
-57i7 index{integer} 63m13 64r16 67r26
-62i14 i{integer} 63r44 67r45
+16K9*Ada 19e8 23|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 23|1w10 1r27
+242U14*Put 23|35s25
+X 22 type_dictionary.ads
+2i9 max{integer} 21r34 25r30 23|20r37
+3+14 key 8r50 10r42 11r50 17r10 23|5r47 15r50 29r42 42r50
+4+14 value 8r60 10r54 18r10 23|15r60 29r54 31r19
+5k9*type_dictionary 2z9 3z14 4z14 16E10 28l5 28e20 23|3b14 79l5 79t20
+7R10*Dictionary 8r33 9r31 10r25 11r33 12r27 12r45 23c10 26e15 23|5r30 15r33
+. 29r25 42r33 54r31 59r27 59r45
+8U15*aggiungi 8=24 8>45 8>55 23|15b15 27l9 27t17
+8r24 D{7R10} 23|15b24 18r29 20r28 21m33 21r39 22m33 22r43 25m25
+8*45 c{3+14} 23|15b45 18r31 21r55
+8*55 v{4+14} 23|15b55 21r57 25r43
+9V18*isEmpty{boolean} 9>26 23|54b18 57l13 57t20
+9r26 D{7R10} 23|54b26 56r24
+10V14*leggi{4+14} 10>20 10>37 23|29b14 40l9 40t14
+10r20 D{7R10} 23|29b20 33r37 37r30
+10*37 c{3+14} 23|29b37 33r39
+11U15*cancella 11=24 11>45 23|42b15 52l9 52t17
+11r24 D{7R10} 23|42b24 45r37 47r41 48m33 48r45 50m25 50r35
+11*45 c{3+14} 23|42b45 45r39
+12V14*uguale{boolean} 12>21 12>39 23|59b14 77l9 77t15
+12r21 D1{7R10} 23|59b21 62r20 65r37 66r57 70r63
+12r39 D2{7R10} 23|59b39 62r31 66r53 70r44
+16R10 Coppia 19e15 21r42
+17*8 c{3+14} 23|8r37 66r67
+18*8 v{4+14} 23|25m38 37r43 70r58 70r73
+21A10 ElementList(16R10)<integer> 24r12
+24a8 diz{21A10} 23|8r30 21m35 25m27 37r32 48m35 48r47 66r60 70r47 70r66
+25i8 size{integer} 23|7r23 20r30 21r41 22m35 22r45 47r43 50m27 50r37 56r26
+. 62r23 62r34 65r40
+X 23 type_dictionary.adb
+5V14 appartiene{integer} 5b14 5>25 5>42 13l9 13t19 18s18 33s26 45s26 66s42
+5r25 D{22|7R10} 7r21 8r28
+5*42 c{22|3+14} 8r41
+7i13 i{integer} 8r34 9r40
+16i9 index{integer} 18m9 19r12 25r31
+30i17 index{integer} 33m17 34r20 37r36
+31*17 v{22|4+14} 37m25 39r24
+43i17 index{integer} 45m17 46r20 47r34
+47i29 i{integer} 48r39 48r51
+60i17 index{integer} 66m33 67r36 70r51
+65i29 i{integer} 66r64 70r70
 
