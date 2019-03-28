@@ -2,7 +2,7 @@ generic
 	max:Integer;
 	type Item is private;
 package Type_stack is
-	
+		
     type Stack is limited private; -- se tolgo limited qui non compila --
     procedure push(s:in out Stack; x:in Item);
     procedure pop(s:in out Stack);

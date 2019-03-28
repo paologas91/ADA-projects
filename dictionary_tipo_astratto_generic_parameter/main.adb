@@ -38,6 +38,3 @@ begin
 
 	null;
 end Main;
-
--- in questo caso posso usare D1 oppure devo per forza dichiarare una variabile? --
--- nel caso di astrazione generica sul tipo astratto, gli operatori binari posso usarli solo su variabili dello stesso package? --
