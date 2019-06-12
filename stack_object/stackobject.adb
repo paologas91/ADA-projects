@@ -30,5 +30,12 @@ package body stackobject is
     begin
        return s.top = 0;
     end empty;
+	
+	begin
+		integer i;
+		s.top:=0;
+		for i:=1 to 10 
+			s.st[i]:=0;
+	end;
    
 end stackobject;

@@ -13,6 +13,7 @@ private
 	type Stack is limited record 
 		st:Table;
 		top:Integer range 0..max:=0;
+		size:Integer range 0..max:=0;
 	end record;
    
 end Type_stack;
